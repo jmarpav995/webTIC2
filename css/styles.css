@@ -1,0 +1,30 @@
+table, th, td {
+  border: 1px solid black;
+}
+/* agregamos espacio entre el contenido y los bordes de la tabla */
+th, td {
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: DarkGreen;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: DarkGreen;
+}
